@@ -13,7 +13,7 @@
 
 main {
     width: 960px;
-	　margin: 50px auto;
+	margin: 50px auto;
 }
 
 .step-box {
@@ -73,9 +73,10 @@ main {
 		float: none;
 		width: 100%;
 		margin-bottom: 20px;
-		
 	}
-
+	.step-box:last-child {
+		margin-bottom: 0;
+	}
 
 }
 
